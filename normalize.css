@@ -1,0 +1,21 @@
+section{
+  padding: 100px;
+}
+
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h2{
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
