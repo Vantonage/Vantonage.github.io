@@ -11,6 +11,7 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: blue;
 }
 
 .banner h2{
