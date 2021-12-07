@@ -9,8 +9,8 @@
 		<script src="final.js"></script>
     </head>
     <body>
-        <section class="banner">
-            <div class="textBx">
+        <section class="header">
+            <div class="Introduction">
 				<p>
 					<img width="300px" src="Profile.jpg" alt="Profile Picture">
 					<h2>Ricky Chen</span> </h2>
@@ -21,17 +21,24 @@
         </section>
 		<hr class="line1">
 		<section class="About" id="AboutMe">
-			<div class="Box">
+			<div class="AboutMeBox">
 				<h4>
 				About Me
 				</h4>
 				<p>
 				Hello, my name is Ricky Chen. I am currently a Seneca student studying in the
-				Computer Programming and Analysis (CPA) program.
-				<a href="#Education">Education</a>
+				Computer Programming and Analysis (CPA) program. Growing up, I loved to play video games and wanted to eventually 
+				create my own games. In highschool, I took a Computer Science course involved with JavaScript which I enjoyed and wanted to 
+				pursue a career in this field. Unfortunately I did not get accepted into the Computer Science program at McMaster University; I decided
+				to study Civil Engineering instead. As expected, I did not enjoy the course and decided that I would rather transfer into another 
+				school to pursue a Computer Programming related career at a much cheaper institution such as Seneca College.
+				Here you can selecet to view my past and present
+				<a href="#Education1">educations.</a>
+				If you want, you could also send me a message below in the Contact Me section at the end of the 
+				<a href="#ContactMe">page.</a>
 				</p>
 			</div>
-			<div class="Box">
+			<div class="AboutMeBox">
 				<h4>
 				Basic Information
 				</h4>
@@ -56,19 +63,26 @@
 				</div>
 			</div>
 		</section>
-		<h3>Education</h3>
+		<h3 id = "Education1">Education</h3>
+		
+		<hr class="line1">
 		<div class="Education" id="Education">
 		
 
 			<div class="EducationBox">
 				<div class="EducationList">
-				<p>2021 - 2024 (expected) 				</p>
+				<p>2004 - 2014
+				<br>
+				École élémentaire catholique Saint-Edmond
+				<br>
+				Ontario Primary School Diploma
+				</p>
 				</div>
 			</div>
 			
 			<div class="EducationBox">
 				<div class="EducationDetails">
-				<p>asdsaasdsaasdsaasdsa</p>
+				<p>Completed and earned the Ontario Primary School Diploma</p>
 				</div>
 			</div>
 		</div>
@@ -78,16 +92,91 @@
 
 			<div class="EducationBox">
 				<div class="EducationList">
-				<p>2021 - 2024 (expected) 				</p>
+				<p>2014 - 2017
+				<br>
+				École secondaire catholique EJ Lajeunesse
+				<br>
+				Ontario Secondary School Diploma
+				</p>
 				</div>
 			</div>
 			
 			<div class="EducationBox">
 				<div class="EducationDetails">
-				<p>asdsaasdsaasdsaasdsa</p>
+				<p>Transferred in early February</p>
 				</div>
 			</div>
 		</div>
+		<br>
+		
+		<div class="Education" id="Education">
+			<div class="EducationBox">
+				<div class="EducationList">
+				<p>2017 - 2018
+				<br>
+				Newmarket High School
+				<br>
+				Ontario Secondary School Diploma
+				</p>
+				</div>
+			</div>
+			
+			<div class="EducationBox">
+				<div class="EducationDetails">
+				<p>Completed and earned the Ontario Secondary School Diploma (OSSD) as a French Immersion student</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		
+		
+		<div class="Education" id="Education">
+			<div class="EducationBox">
+				<div class="EducationList">
+				<p>2018 - 2021
+				<br>
+				McMaster University
+				<br>
+				Bachelor of Engineering
+				</p>
+				</div>
+			</div>
+			
+			<div class="EducationBox">
+				<div class="EducationDetails">
+				<p>Studied in Civil Engineering before transferring into Seneca College</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		
+		
+		<div class="Education" id="Education">
+			<div class="EducationBox">
+				<div class="EducationList">
+				<p>2021 - 2024 (expected)
+				<br>
+				Seneca College
+				<br>
+				Ontario College Advanced Diploma
+				</p>
+				</div>
+			</div>
+			
+			<div class="EducationBox">
+				<div class="EducationDetails">
+				<p>Ontario College Advanced Diploma
+				<br>
+				Seneca College
+				<br>
+				Under the supervision of Kathhy Dumanski
+				</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		
+		<hr class="line1">
 		<section class="ContactMe" id="ContactMe">
 			<div class="form">
 				<form action="https://httpbin.org/post" method="POST" name="contact">
@@ -126,9 +215,10 @@
 					<label for="hiring">Hiring</label>
 					<input type="radio" name="radio" id="hiring" value="hiring" onclick="loadHiring()">
 					<br>
-					<input type="text" id="textBox" style="visibility:hidden">
+					<input type="text" id="textBox" placeholder="Input your offer" name="hiring" style="display:none">
 					<br>
-					<label for="message">Message</label>
+					<label for="message">Message Me!</label>
+					<br>
 					<textarea id="message" name="message"></textarea>
 					<input type="hidden" id="studentName" name="studentName" value="Ricky Chen">
 					<input type="hidden" id="studentID" name="studentID" value="rchen100">

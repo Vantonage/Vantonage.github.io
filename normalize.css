@@ -1,5 +1,4 @@
-
-section .banner{
+section .header{
 	padding: 100px;
 }
 
@@ -32,13 +31,13 @@ body{
 	font-family: 'Architects Daughter', cursive;
 }
 
-.textBx{
+.Introduction{
 	margin:auto;
 	text-align: center;
 }
 
 
-.Box{
+.AboutMeBox{
     width: 100vw;
     margin: 0 auto;
 	float: left;
@@ -75,7 +74,7 @@ body{
 	width: 50%;
 }
 
-.banner {
+.header {
 	margin:auto;
 	position: relative;
 	min-height: 20vh;
@@ -88,13 +87,12 @@ body{
 
 }
 
-
-.banner h2{
+.header h2{
 	font-size: 3em;
 	color: white;
 }
 
-.banner h3{
+.header h3{
 	color: white;
 }
 
@@ -123,4 +121,11 @@ hr.line1 {
 
 textarea{
 	resize: none;
+	height: 100px;
+	width: 200px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
 }
