@@ -23,17 +23,19 @@ h3 {
 	background-color
 }
 
-body{
+html, body{
 	width: 90vw;
 	min-width: 90vw;
 	max-width: 1100px;
 	margin: 0 auto;
 	font-family: 'Architects Daughter', cursive;
+	font-size: 2vh;
 }
 
 .Introduction{
 	margin:auto;
 	text-align: center;
+	
 }
 
 
@@ -41,7 +43,6 @@ body{
     width: 100vw;
     margin: 0 auto;
 	float: left;
-	width: 40%;
 	padding: 5%;
 }
 
@@ -51,7 +52,7 @@ body{
     width: 100vw;
     margin: 0 auto;
 	float: left;
-	width: 40%;
+	width: 100%;
 	text-align: center;
 }
 
