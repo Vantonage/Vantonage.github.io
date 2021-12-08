@@ -30,7 +30,7 @@ html, body{
 	min-width: 90vw;
 	max-width: 1100px;
 	margin: 0 auto;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Architects Daughter';
 	font-size: 2vh;
 	overflow-wrap: break-word;
 }
