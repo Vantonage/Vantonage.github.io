@@ -30,6 +30,7 @@ html, body{
 	margin: 0 auto;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 2vh;
+	overflow-wrap: break-word;
 }
 
 .Introduction{
